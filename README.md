@@ -1,12 +1,31 @@
-# React + Vite
+# 🏠 HomeCook - ReactJS Food Ordering Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HomeCook is an online platform that brings delicious home-cooked meals to your doorstep. This project is a frontend implementation of a daily-changing menu interface, built with **ReactJS**.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+HomeCook aims to provide users with an easy way to view and order meals prepared by home chefs. The React application displays the menu for the current day, including pictures, pricing, and portion sizes for each dish.
 
-## Expanding the ESLint configuration
+> 🛠️ Note: This version includes the **daily menu interface only**. Cart functionality, order calculation, and checkout logic are not yet implemented.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Features Implemented
+
+- ✅ **Daily Menu Display**: The homepage dynamically shows food items available for the current day.
+- ✅ **Visual Presentation**: Each food item includes:
+  - 📸 Image
+  - 💲 Price
+  - 👥 Serving size (number of people per serving)
+- ✅ **Responsive UI**: The frontend layout is designed using modern React and CSS techniques for a clean, user-friendly experience.
+
+
+
+
+## 🧪 How to Run Locally
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/homecook-app.git
+   cd homecook-app
+   npm install
+   npm run dev
+   
